@@ -16,8 +16,8 @@ Purpose: Handles web traffic and serves HTML/PHP content.
 
 Document Root Directory:
 
-For Ubunto  - /var/www/html/
-For Amazon  - 
+Root: /var/www/html/
+ 
 
 Log Files:
   - Access Log: /var/log/httpd/access_log or /var/log/apache2/access.log
@@ -37,12 +37,12 @@ Log Files:
   - 443 (HTTPS) → Used for SSL/TLS-secured connections.
 
 - Configuration Files:
-  - Main: `/etc/nginx/nginx.conf`
-  - Site-specific: `/etc/nginx/conf.d/` or `/etc/nginx/sites-available/`
+  - Main: /etc/nginx/nginx.conf
+  - Site-specific: /etc/nginx/conf.d/ or /etc/nginx/sites-available/`
 
 - Default Web Root Directory:
-  - `/usr/share/nginx/html/` (Amazon Linux)
-  - /var/www/html/ (Ubuntu)
+  -: /usr/share/nginx/html/ (Amazon Linux)
+  -: /var/www/html/ (Ubuntu)
 
 - Log Files:
   - Access Log: `/var/log/nginx/access.log`
