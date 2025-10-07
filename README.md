@@ -89,7 +89,11 @@ Log Files:
   - Port 443 (HTTPS): For SSL-encrypted access.
   - Port 3306 (MySQL/MariaDB): Usually restricted to internal access only.
 
-# For Amazon linux LAMP+Apache Server USE
-amazon-linux-lamp.sh
-
-# 
+# For Amazon linux LAMP+Apache Server Use:
+amazon-lamp-apache.sh
+# For Amazon linux LAMP+Nginx Server use:
+amazon-lemp-nginx.sh
+# For Ubuntu linux LAMP+Apache Server use:
+ubuntu-lamp-apache.sh
+# For Ubuntu linux LAMP+Nginx Server use:
+ubuntu-lemp-nginx.sh
