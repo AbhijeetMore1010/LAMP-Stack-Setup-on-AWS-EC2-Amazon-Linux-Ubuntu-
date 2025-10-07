@@ -16,7 +16,7 @@ Purpose: Handles web traffic and serves HTML/PHP content.
 
 Document Root Directory:
 
-Root: /var/www/html/
+Root: /var/www/html
  
 
 Log Files:
